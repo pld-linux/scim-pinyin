@@ -1,7 +1,7 @@
 Summary:	Smart Pinyin IMEngine for Smart Common Input Method platform
 Name:		scim-pinyin
 Version:	0.5.91
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.gz
