@@ -3,7 +3,7 @@ Summary:	Smart Pinyin IMEngine for Smart Common Input Method platform
 Summary(pl.UTF-8):	Silnik IM Pinyin dla platformy SCIM
 Name:		scim-pinyin
 Version:	0.5.92
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/scim/%{name}-%{version}.tar.xz
@@ -12,7 +12,6 @@ Patch0:		%{name}-showallkeys.patch
 Patch1:		%{name}-save-in-temp.patch
 Patch2:		%{name}-fix-load.patch
 Patch3:		%{name}-fix-ms-shuangpin.patch
-Patch4:		%{name}-gcc43.patch
 URL:		http://www.scim-im.org/projects/imengines/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -39,7 +38,6 @@ platformy SCIM.
 %patch -P1 -p1
 %patch -P2 -p1
 %patch -P3 -p1
-%patch -P4 -p1
 
 %build
 %configure \
